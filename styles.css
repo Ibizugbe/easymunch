@@ -1,5 +1,5 @@
 .landingBg {
-  background-image: url(/Assets/splash\ image\ bgup.png);
+  background-image: url(Assets/splash\ image\ bgup.png);
 }
 .sign-up-form {
   background-color: #f7f7f7 !important;
@@ -14,7 +14,7 @@ a {
   color: #040404 !important;
 }
 .paperBg {
-  background-image: url(/Assets/paperbackground.png);
+  background-image: url(Assets/paperbackground.png);
 }
 #bgVisibility {
   background-image: linear-gradient(
@@ -36,7 +36,7 @@ a {
       rgba(53, 53, 53, 0.729167) 61.98%,
       #000000 100%
     ),
-    url(/Assets/unsplash_business.png);
+    url(Assets/unsplash_business.png);
 }
 #bgCosturmers {
   background-image: linear-gradient(
@@ -47,7 +47,7 @@ a {
       rgba(53, 53, 53, 0.729167) 61.98%,
       #000000 100%
     ),
-    url(/Assets/unsplash_costurmers.png);
+    url(Assets/unsplash_costurmers.png);
 }
 #bgSteps {
   background-image: linear-gradient(
@@ -59,11 +59,11 @@ a {
       rgba(44, 44, 44, 0.776042) 66.15%,
       #000000 100%
     ),
-    url(/Assets/unsplash_howitworks.png);
+    url(Assets/unsplash_howitworks.png);
 }
 .questionSegment {
   color: #7f7e7c;
 }
 #bgLanding {
-  background-image: url(/Assets/unsplash_DF79kghzr_8.png);
+  background-image: url(Assets/unsplash_DF79kghzr_8.png);
 }
