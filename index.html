@@ -12,21 +12,30 @@
     <!-- background image section -->
     <section>
       <div id="bgLanding">
-        <nav>
+        <nav class="d-flex justify-content-between">
           <img
             src="Assets/easymunch logo png 1.png"
             alt=""
-            class="img-fluid ps-3 ps-lg-5"
+            width="150px"
+            class="img-fluid ps-3 ps-lg-5 mt-1"
           />
+          <button
+            class="btn rounded-pill mt-md-4 me-md-5"
+            style="background-color: white"
+          >
+            Sign Up
+          </button>
         </nav>
         <div class="container-fluid pt-lg-5">
-          <div class="row pt-lg-5">
-            <div class="col-7 col-md-12 pt-5 px-4">
-              <div class="h1 text-white ps-lg-5 mt-5">
-                <span class="bg-dark fw-bold">ORDERING MADE EASY!</span>
+          <div class="row">
+            <div class="pt-5 px-4">
+              <div class="col-7 col-md-12 h1 text-white ps-lg-4 mt-5">
+                <span class="fw-bolder p-1" style="background-color: black"
+                  >ORDERING MADE EASY!</span
+                >
               </div>
-              <div class="p text-white ps-lg-5 pt-4">
-                <span class="bg-dark">
+              <div class="p pb-4 pb-md-0 text-white ps-lg-4 pt-4">
+                <span class="p-1" style="background-color: black">
                   The meals you love delivered with care !
                 </span>
               </div>
@@ -36,7 +45,7 @@
             >
               <input
                 type="email"
-                class="form-control border-0 py-md-3"
+                class="form-control border-0 rounded-3 py-md-3"
                 placeholder="Find your meal..."
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
@@ -49,7 +58,7 @@
                 type="button"
                 style="background-color: #f21b3f"
               >
-                <small>Find Your Meal</small>
+                <small class="text-white">Find Your Meal</small>
               </button>
             </span>
             <!-- mobile screen button -->
@@ -70,8 +79,8 @@
     <section>
       <div class="container-fluid py-5">
         <div class="row px-lg-5 px-1">
-          <div class="col-lg-3 col-12 col-md-6 pt-md-5">
-            <div class="h1 col-9 col-lg-12 fw-bold">
+          <div class="col-lg-3 mt-2 col-12 col-md-6 pt-md-5">
+            <div class="h1 col-9 col-lg-12 fw-bolder">
               Our Partner Restaurants
             </div>
             <div class="p">
@@ -80,7 +89,7 @@
             </div>
           </div>
           <!-- large screen image -->
-          <div class="d-none d-lg-block col-lg-9 col-12 ps-lg-5">
+          <div class="d-none d-lg-block col-lg-9 col-12 ps-lg-5 mt-5">
             <img
               src="Assets/partnered restaurants.png"
               alt=""
@@ -102,9 +111,315 @@
     <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 ps-lg-5 ps-4">
+          <div class="col-12 ps-lg-5 ps-4 pb-4">
             <div class="h1 fw-bold col-lg-4 col-7">
               What the Foodies say about us ☺️
+            </div>
+          </div>
+        </div>
+        <!-- review card -->
+        <div
+          class="row flex-nowrap example pb-md-5 ps-lg-5"
+          style="overflow-x: scroll"
+        >
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-4 col-lg-3">
+            <div class="card border-2" style="border-radius: 5%">
+              <div class="card-body py-5">
+                <h5 class="card-title">
+                  <img src="Assets/textt.svg" alt="" />
+                </h5>
+                <p class="card-text mb-5" style="line-height: 20px">
+                  <small>
+                    Best food delivery app i have used in nigeria. Absolutly
+                    recommended and ill use it over and over agai! Awesome!
+                  </small>
+                </p>
+                <div class="row">
+                  <div class="col-4 pe-md-3 pe-2">
+                    <img
+                      src="Assets/review_image.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-8 ps-0">
+                    <div class="h6 mb-0">Mary Jane</div>
+                    <div class="p">
+                      <small>Facebook Post</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -209,8 +524,11 @@
     </section>
     <!-- footer section -->
     <section>
-      <div class="container-fluid mt-5 p-5" style="background-color: #f7f7f7">
-        <div class="row">
+      <div
+        class="container-fluid mt-5 p-md-3 p-lg-5 p-2"
+        style="background-color: #f7f7f7"
+      >
+        <div class="row px-md-5 pt-5 pt-md-3 pb-3 px-2">
           <div class="col-lg-6">
             <div class="row">
               <div class="col-6">
@@ -256,15 +574,15 @@
                 </div>
                 <div class="p pt-3">
                   <a href="#" class="footer-link"
-                    ><small>Woods by RoadRunners</small>
+                    ><small>Domino’s Pizza</small>
                   </a>
                 </div>
                 <div class="p pt-3">
-                  <a href="#" class="footer-link"
-                    ><small> Kada Fried Chicken</small></a
-                  >
+                  <a href="#" class="footer-link"><small>CreamTown</small></a>
                 </div>
-
+                <div class="p pt-3">
+                  <a href="#" class="footer-link"><small>ColdStone</small> </a>
+                </div>
                 <div class="p pt-3">
                   <a href="#" class="footer-link"
                     ><small>Kada Fried Chicken</small>
@@ -273,8 +591,9 @@
               </div>
             </div>
           </div>
+          <!-- locations and app for mobile -->
           <div class="col-lg-6">
-            <div class="row">
+            <div class="row pt-5 pt-lg-0">
               <div class="col-6">
                 <div class="h5 fw-bold pt-3 pt-lg-0">
                   Locations<small></small>
@@ -284,11 +603,11 @@
                 </div>
               </div>
               <div class="col-6 pt-3 pt-lg-0">
-                <div class="h5 fw-bold text-center">
+                <div class="h5 fw-bold">
                   <small>Take Easymunch With you</small>
                 </div>
 
-                <div class="ps-0 d-grid mt-3 gap-2 col-10 mx-auto">
+                <div class="ps-0 mt-3 col-10">
                   <button class="btn btn-lg btn-dark" type="button">
                     <img
                       src="Assets/Apple App Store Coming Soon.png"
@@ -298,7 +617,7 @@
                   </button>
                 </div>
 
-                <div class="ps-0 d-grid gap-2 col-10 mx-auto pt-3">
+                <div class="ps-0 col-10 pt-3">
                   <button class="btn btn-lg btn-dark" type="button">
                     <img
                       src="Assets/google play Store Coming Soon.png"
@@ -310,10 +629,8 @@
               </div>
             </div>
           </div>
-
-          <div class="media-handles"></div>
         </div>
-        <div class="row">
+        <div class="row px-3 pt-5 pt-lg-0 pb-3 px-lg-5">
           <div class="col-12">
             <hr />
           </div>

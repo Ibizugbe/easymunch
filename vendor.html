@@ -10,15 +10,23 @@
   </head>
   <body>
     <section class="landingBg">
-      <nav>
+      <nav class="d-flex justify-content-between">
         <img
           src="/Assets/easymunch logo png 1.png"
           alt=""
           class="img-fluid ms-lg-5 ms-4"
         />
+        <span class="p text-white pt-4 pe-5 me-3 d-none d-md-flex">
+          <a href="" style="color: white"><small>Back to Home Page</small></a>
+        </span>
+        <span>
+          <button class="btn d-md-none bg-light mt-4 rounded-pill me-3">
+            Register as Vendor
+          </button>
+        </span>
       </nav>
       <div class="container-fluid">
-        <div class="row pt-5 mt-lg-5 me-5 pb-5">
+        <div class="row me-5 pb-5">
           <div
             class="col-12 col-lg-6 ps-lg-5 pt-lg-5 mt-lg-5 pe-lg-5 mx-3 mx-lg-0"
           >
@@ -207,8 +215,8 @@
               "EasyMunch extends our brand awareness to neighborhoods that
               wouldn't normally be exposed to us."
             </div>
-            <div class="h6 pt-2 pt-lg-5 ps-lg-5 text-white">Jason Doe</div>
-            <div class="p ps-lg-5 text-muted">Manager, Chicken Republic</div>
+            <div class="h5 pt-2 pt-lg-5 ps-lg-5 text-white">Jason Doe</div>
+            <div class="h6 ps-lg-5 text-muted">Manager, Chicken Republic</div>
           </div>
           <div class="col-4 col-lg-8">
             <img
@@ -250,10 +258,9 @@
                 </div>
 
                 <div class="card-text px-2">
-                  <div class="p text-white pb-5">
+                  <div class="col-9 p text-white pb-5">
                     A customer finds your restaurant and places an order through
-                    the <br />
-                    EasyMunch Website.
+                    the EasyMunch Website.
                   </div>
                 </div>
               </div>
@@ -270,32 +277,32 @@
             <div class="h1 fw-bold">Questions? We've got answers.</div>
           </div>
           <div class="questions px-3 px-lg-5 pt-4">
-            <div class="h5 ps-md-4">
+            <div class="h5 ps-md-5">
               How long does it take to become a partner?
             </div>
-            <div class="p px-md-4 questionSegment">
+            <div class="p px-md-5 questionSegment">
               Depending on how many locations you have, it’s possible to become
               an Uber Eats restaurant partner and start accepting orders in just
               a few days! You can begin the process by signing up here. We’re
               excited to hear from you!
             </div>
-            <div class="h5 ps-md-4 pt-2 mt-4">How does pricing work?</div>
-            <div class="p px-md-4 questionSegment">
+            <div class="h5 ps-md-5 pt-2 mt-4">How does pricing work?</div>
+            <div class="p px-md-5 questionSegment">
               Easymunch offers professional photo shoot for the restaurants
               meals free of charge. A service fee is calculated as a percentage
               of each restaurant order made through Easymunch. Want more
               details? Email us and we’ll get back to you.
             </div>
-            <div class="h5 ps-md-4 mt-4">Who handles each delivery?</div>
-            <div class="p px-md-4 questionSegment">
+            <div class="h5 ps-md-5 mt-4">Who handles each delivery?</div>
+            <div class="p px-md-5 questionSegment">
               The Easymunch platform can connect you with independent drivers
               who deliver to your customers. Because of the network of delivery
               people using the Easymunch platform, restaurants don’t have to
               keep their own delivery staff. But if you do have your own staff,
               we’re flexible—you can use them too. Reach out to us.
             </div>
-            <div class="h5 ps-md-4 mt-4">What is the delivery radius?</div>
-            <div class="p px-md-4 questionSegment">
+            <div class="h5 ps-md-5 mt-4">What is the delivery radius?</div>
+            <div class="p px-md-5 questionSegment">
               This varies from city to city. We can assess delivery coverage and
               your location to help define the right area for your restaurant.
             </div>
@@ -305,8 +312,11 @@
     </section>
     <!-- footer section -->
     <section>
-      <div class="container-fluid mt-5 p-5" style="background-color: #f7f7f7">
-        <div class="row">
+      <div
+        class="container-fluid mt-5 p-md-3 p-lg-5 p-2"
+        style="background-color: #f7f7f7"
+      >
+        <div class="row px-md-5 pt-5 pt-md-3 pb-3 px-2">
           <div class="col-lg-6">
             <div class="row">
               <div class="col-6">
@@ -352,15 +362,15 @@
                 </div>
                 <div class="p pt-3">
                   <a href="#" class="footer-link"
-                    ><small>Woods by RoadRunners</small>
+                    ><small>Domino’s Pizza</small>
                   </a>
                 </div>
                 <div class="p pt-3">
-                  <a href="#" class="footer-link"
-                    ><small> Kada Fried Chicken</small></a
-                  >
+                  <a href="#" class="footer-link"><small>CreamTown</small></a>
                 </div>
-
+                <div class="p pt-3">
+                  <a href="#" class="footer-link"><small>ColdStone</small> </a>
+                </div>
                 <div class="p pt-3">
                   <a href="#" class="footer-link"
                     ><small>Kada Fried Chicken</small>
@@ -369,8 +379,9 @@
               </div>
             </div>
           </div>
+          <!-- locations and app for mobile -->
           <div class="col-lg-6">
-            <div class="row">
+            <div class="row pt-5 pt-lg-0">
               <div class="col-6">
                 <div class="h5 fw-bold pt-3 pt-lg-0">
                   Locations<small></small>
@@ -380,24 +391,24 @@
                 </div>
               </div>
               <div class="col-6 pt-3 pt-lg-0">
-                <div class="h5 fw-bold text-center">
+                <div class="h5 fw-bold">
                   <small>Take Easymunch With you</small>
                 </div>
 
-                <div class="ps-0 d-grid mt-3 gap-2 col-10 mx-auto">
+                <div class="ps-0 mt-3 col-10">
                   <button class="btn btn-lg btn-dark" type="button">
                     <img
-                      src="/Assets/Apple App Store Coming Soon.png"
+                      src="Assets/Apple App Store Coming Soon.png"
                       alt=""
                       class="img-fluid"
                     />
                   </button>
                 </div>
 
-                <div class="ps-0 d-grid gap-2 col-10 mx-auto pt-3">
+                <div class="ps-0 col-10 pt-3">
                   <button class="btn btn-lg btn-dark" type="button">
                     <img
-                      src="/Assets/google play Store Coming Soon.png"
+                      src="Assets/google play Store Coming Soon.png"
                       alt=""
                       class="img-fluid"
                     />
@@ -406,10 +417,8 @@
               </div>
             </div>
           </div>
-
-          <div class="media-handles"></div>
         </div>
-        <div class="row">
+        <div class="row px-3 pt-5 pt-lg-0 pb-3 px-lg-5">
           <div class="col-12">
             <hr />
           </div>
@@ -417,19 +426,19 @@
             <div class="row">
               <div class="col-6">
                 <img
-                  src="/Assets/Vector (3)black.png"
+                  src="Assets/Vector (3)black.png"
                   width="20px"
                   alt=""
                   class="img-fluid"
                 />
                 <img
-                  src="/Assets/Vector (5)black.png"
+                  src="Assets/Vector (5)black.png"
                   width="20px"
                   alt=""
                   class="ms-md-3 ms-1 img-fluid"
                 />
                 <img
-                  src="/Assets/Vector (6)black.png"
+                  src="Assets/Vector (6)black.png"
                   width="20px"
                   alt=""
                   class="ms-md-3 ms-1 img-fluid"
