@@ -64,6 +64,16 @@ a {
 .questionSegment {
   color: #7f7e7c;
 }
+
+body,
+html {
+  height: 100%;
+}
+
 #bgLanding {
   background-image: url(Assets/splash_image_bg.png);
+  height: 50% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
