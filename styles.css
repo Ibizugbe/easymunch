@@ -1,3 +1,7 @@
+body,
+html {
+  height: 100%;
+}
 .landingBg {
   background-image: url(Assets/splash\ image\ bgup.png);
 }
@@ -65,14 +69,9 @@ a {
   color: #7f7e7c;
 }
 
-body,
-html {
-  height: 100%;
-}
-
 #bgLanding {
-  background-image: url(Assets/splash_image_bg.png);
-  height: 50% !important;
+  min-height: 100vh;
+  background-image: url(Assets/landingpage_splash_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
