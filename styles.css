@@ -34,6 +34,10 @@ a {
       #000000 100%
     ),
     url("Assets/unsplash_VP5R-n47v9Q.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 30vh;
 }
 #bgBusiness {
   background-image: linear-gradient(
@@ -45,6 +49,10 @@ a {
       #000000 100%
     ),
     url(Assets/unsplash_business.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 30vh;
 }
 #bgCosturmers {
   background-image: linear-gradient(
@@ -56,6 +64,10 @@ a {
       #000000 100%
     ),
     url(Assets/unsplash_costurmers.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 30vh;
 }
 #bgSteps {
   background-image: linear-gradient(
