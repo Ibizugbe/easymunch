@@ -1,4 +1,6 @@
-body,
+body {
+  font-family: "Inter", sans-serif;
+}
 html {
   height: 100%;
 }
@@ -91,4 +93,17 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.restaurantCardHeader {
+  font-size: 14px;
+  font-weight: 900, bolder;
+}
+.restaurantCardText {
+  font-size: 11px;
+  font-weight: 400;
+  color: #979797;
+}
+.rating-text {
+  font-size: 11px;
+  font-weight: 500;
 }
