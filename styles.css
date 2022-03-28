@@ -11,6 +11,13 @@ html {
   background-position: center;
   min-height: 100vh;
 }
+.landingBgMobile {
+  background-image: url(Assets/splash\ image\ bgup.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 75vh;
+}
 .sign-up-form {
   background-color: #f7f7f7 !important;
 }
