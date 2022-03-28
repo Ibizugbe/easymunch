@@ -112,3 +112,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+#bgLandingMobile {
+  min-height: 75vh;
+  background-image: url(Assets/splash_image_edited.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
