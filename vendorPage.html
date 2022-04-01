@@ -204,7 +204,8 @@
             </div>
           </div>
           <div class="col-lg-3  col-md-4">
-            <div class="card border-0">
+            <!-- modal trigger -->
+            <div class="card border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <div class="card-body">
                 <img src="Assets/unsplash_Mzy-OjtCI70.png" alt="" class="img-fluid">
                 <h5 class="card-title pt-2 fw-bold mb-1">CARLITOS WAY SPECIAL</h5>
@@ -212,6 +213,176 @@
                   LAMB RIBS,/PORK RIBS WITH CREAMY JACKET...
                 </p>
                 <div class="h5 fw-bold">₦9,000.00</div>
+              </div>
+            </div>
+            <!-- modal-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-head text-end pe-2 pt-2">
+                    <button type="button" class="btn-close bg-white p-2 mt-1 rounded-circle"  data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- modal body -->
+                    <div class="container-fluid px-0">
+                      <h3 class="h5 ms-3 text-uppercase fw-bold">
+                        Carlitos Way Special
+                      </h3>
+                      <p
+                        class="p ms-3 col-9 text-uppercase"
+                        style="color: #979797; font-size: 14px"
+                      >
+                        Mashed potatoes with T-bone steak, Lamb ribeye/ beef ribeye/ lamb chops/
+                        lamb ribs
+                      </p>
+                    </div>
+                    <!-- grid buttons -->
+                    <div
+                      class="container-fluid example mt-3 ps-3 flex-nowrap"
+                      style="overflow-y: scroll; height: 40vh"
+                    >
+                      <!-- select options button -->
+                      <div
+                        class="col-6 d-flex justify-content-center px-2 py-1"
+                        style="background-color: black; color: white; border-radius: 5px"
+                      >
+                        <span class="p text-uppercase text-center">Select your options</span>
+                      </div>
+                      <div class="p mt-3" style="color: black;">Drinks</div>
+                      <div class="row mt-2">
+                        <div class="d-grid gap-2 col-3">
+                          <button class="btn" type="button" style="background-color: #f7f7f7">
+                            Coke
+                          </button>
+                        </div>
+                        <!-- second button -->
+                        <div class="d-grid gap-2 col-3">
+                          <button class="btn" type="button" style="background-color: #f7f7f7">
+                            Coke
+                          </button>
+                        </div>
+                        <div class="d-grid gap-2 col-3">
+                          <button class="btn" type="button" style="background-color: #f7f7f7">
+                            Coke
+                          </button>
+                        </div>
+                      </div>
+                
+                      <div class="p mt-2">Proteins</div>
+                      <div class="row mt-2">
+                        <div class="d-grid gap-2 col-3">
+                          <button class="btn" type="button" style="background-color: #f7f7f7">
+                            Beef
+                          </button>
+                        </div>
+                        <!-- second button -->
+                        <div class="d-grid gap-2 col-3">
+                          <button class="btn" type="button" style="background-color: #f7f7f7">
+                            Beef
+                          </button>
+                        </div>
+                        <div class="d-grid gap-2 col-3">
+                          <button class="btn" type="button" style="background-color: #f7f7f7">
+                            Beef
+                          </button>
+                        </div>
+                      </div>
+                      <div class="row mt-3 ms-1">
+                        <div
+                          class="col-3 text-white text-center py-1"
+                          style="background-color: black; border-radius: 5px"
+                        >
+                          Extras
+                        </div>
+                      </div>
+                      <div class="row ps-3 mt-4">
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <div class="row ps-1">
+                              <span class="p col-4">Salad</span>
+                              <span class="p col-4 text-end">₦ 3,00.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                            <div class="row ps-1">
+                              <span class="col-4 p ">Plantain (Diced)</span>
+                              <span class="col-4 text-end p ">₦3,00.00</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                            />
+                
+                            <div class="row ps-1">
+                              <span class="col-4 p ">Chips (Large)</span>
+                              <span class="col-4 text-end p ">₦3,00.00</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- grid buttons -->
+                    <div class="container-fluid mt-2">
+                      <div class="row py-3">
+                        <div class="col-4">
+                          <button
+                            class="btn rounded-circle"
+                            style="
+                              background-color: #f7f7f7;
+                              height: 35px;
+                              width: 35px;
+                              
+                            "
+                            >
+                            <span>+</span> 
+                          </button>
+                      
+                          <span class=" p-2 text-center ms-1"> 1 </span>
+                          <button
+                            class="btn rounded-circle"
+                            style="
+                              background-color: #f7f7f7;
+                              height: 37px;
+                              width: 37px;
+                              
+                            "
+                          >
+                            <span class="">-</span> 
+                          </button>
+                        </div>
+                        <!-- add to cart button -->
+                        <div class="d-grid col-8 ">
+                          <button class="btn rounded-pill text-white" style="background-color: black;">
+                            <span class="row">
+                              <div class="col text-uppercase">Add to cart</div>
+                              <div class="col">₦ 9,000.00</div>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

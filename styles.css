@@ -126,3 +126,9 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+.modal-head {
+  background-image: url(Assets/modal_bg-image.png);
+  height: 25vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
