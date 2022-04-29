@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-2 d-none d-lg-block"
+          style="background-color: #f7f7f7; height: 100vh"
+        >
+          <nav>
+            <img
+              src="/Assets/easymunch logo png 1.png"
+              alt=""
+              width="70px"
+              class="img-fluid ms-3"
+            />
+          </nav>
+          <div class="row pt-5 mt-5 px-3">
+            <div class="col-12 mt-3">
+              <p
+                class="p text-capitalize fw-bold"
+                style="font-size: 15px; color: #7f7e7c"
+              >
+                <img src="/Assets/my-profile-vector.svg" class="mb-1" width="14px" alt="" />
+                <span class="ps-2">My Profile</span>
+              </p>
+            </div>
+            <div class="col-12 pb-4">
+              <p class="" style="font-size: 15px">
+                <img src="/Assets/recent-order-vecto.png" class="mb-1" width="14px" alt="" />
+                <span class="ps-2 fw-bold text-capitalize">Recent orders</span>
+              </p>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <!--  -->
+        <div
+          class="col-12  col-lg-5 pt-5 example px-3 px-lg-0 ps-lg-5 pe-lg-5 flex-nowrap"
+          style="overflow-y: scroll; height: 100vh"
+        >
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class=" ms-3 text-white d-grid fw-bold py-1  col-5 col-lg-4 btn rounded-pill"
+              style="background-color: black"
+            >
+              <span style="font-size: 18px">#ADX46V</span>
+            </div>
+            <!-- status modal -->
+            
+            <div class="col pt-2 ps-4 d-lg-none">
+              <!-- modal trigger -->
+              <img src="/Assets/bell-icon-black.svg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+
+                    <div class="modal-body">
+                      <div class="ststus-div  ps-1 pb-5 rounded-3">
+                        <div class="col-12 ps-1 mb-3">
+                          <div class="row">
+                            <div class="h5 col fw-bold">Status History</div>
+                            <button type="button" class="btn-close col-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        
+                        </div>
+
+                        <!-- status div -->
+                        <div class="ps-2">
+                          <span class="bell-div rounded-circle ms-4 p-2 bg-danger">
+                            <img
+                              src="/Assets/bell-icon.svg"
+                              width="15px"
+                              class="img-fluid"
+                              style="color: red"
+                              alt=""
+                            />
+                          </span>
+                        </div>
+
+                        <div class="status ms-5" style="border-left: #979797 dashed">
+                          <div class="row ms-3">
+                            <div class="col">
+                              <h6 class="fw-bold">Just Created</h6>
+                            </div>
+                            <div
+                              class="col-6 text-end d-flex justify-content-end"
+                              style="font-size: 12px"
+                            >
+                              Thursday, June 24, 2021 10:06 AM
+                            </div>
+                          </div>
+                          <div class="row ms-3">
+                            <div class="col-12">
+                              <div class="p">Order ID: <span class="fw-bold">#ADX46V</span></div>
+                            </div>
+
+                            <div class="col-12">
+                              <div class="p">Status From: <span class="fw-bold">Jason</span></div>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <!-- status -->
+                        <div class="ps-2">
+                          <span class="bell-div rounded-circle ms-4 p-2 bg-danger">
+                            <img
+                              src="/Assets/bell-icon.svg"
+                              width="15px"
+                              class="img-fluid"
+                              style="color: red"
+                              alt=""
+                            />
+                          </span>
+                        </div>
+
+                        <div class="status ms-5 mt-2" style="border-left: #979797 dashed">
+                          <div class="row ms-3">
+                            <div class="col">
+                              <h6 class="fw-bold">Accepted by Admin</h6>
+                            </div>
+                            <div
+                              class="col-6 text-end d-flex justify-content-end"
+                              style="font-size: 12px"
+                            >
+                              Thursday, June 24, 2021 10:06 AM
+                            </div>
+                          </div>
+                          <div class="row ms-3">
+                            <div class="col-12">
+                              <div class="p">Status From: <span class="fw-bold">Admin</span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- status -->
+                        <div class="ps-2">
+                          <span class="bell-div rounded-circle ms-4 p-2 bg-danger">
+                            <img
+                              src="/Assets/bell-icon.svg"
+                              width="15px"
+                              class="img-fluid"
+                              style="color: red"
+                              alt=""
+                            />
+                          </span>
+                        </div>
+
+                        <div class="status ms-5 mt-2 pb-3" style="border-left: #979797 dashed">
+                          <div class="row ms-3">
+                            <div class="col">
+                              <h6 class="fw-bold">Accepted by Vendor</h6>
+                            </div>
+                            <div
+                              class="col-6 text-end d-flex justify-content-end"
+                              style="font-size: 12px"
+                            >
+                              Thursday, June 24, 2021 10:06 AM
+                            </div>
+                          </div>
+                          <div class="row ms-3">
+                            <div class="col-12">
+                              <div class="p">
+                                Status From: <span class="fw-bold">Vendor</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- back button -->
+            <div
+            class=" ms-2 d-grid py-1  col-3 d-lg-none btn rounded-pill"
+            style="background-color: #f7f7f7;"
+            >
+              <span style="font-size: 18px">Back</span>
+            </div>
+
+            <div class="col-12 pt-2 style="font-size: 14px">
+              <p>Thurs, June 24, 2021 10:06 AM</p>
+            </div>
+            <div class="col-12 pt-1">
+              <h5 class="h5 text-uppercase" style="font-weight: 900;">
+                Woods By Road Runners
+              </h5>
+            </div>
+            <div class="col-12">
+              <p class="mb-1" style="color: #979797; font-size: 14px">
+                <span class="pe-1">
+                  <img src="/Assets/Vector location.png" width="11px" alt="" />
+                </span>
+                107 Boundary Road, GRA Benin City
+              </p>
+              <p style="color: #979797; font-size: 14px">
+                <span class="pe-1">
+                  <img src="/Assets/Vector telephone.png" width="10px" alt="" />
+                </span>
+                0907 000 0000
+              </p>
+            </div>
+          </div>
+          <!-- your orders -->
+          <div class="row ps-2 pt-1">
+            <div class="p text-capitalize fw-bold ps-0">your order</div>
+            <div class="col-9 pt-3">
+              <div class="row">
+                <div class="col-4 ps-0 pe-0">
+                  <img
+                    src="/Assets/cart-hover-function.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-8 text-uppercase">
+                  <div class="h6 fw-bold mb-1" style="font-size: 14px">
+                    Carlitos Way Special
+                  </div>
+                  <p class="p small-cart-text mb-0 fw-bold">oPTIONS</p>
+                  <p class="medium-cart-text mb-0 fw-bold mb-3">
+                    chICKEN X cOKE X cUPCAKES
+                  </p>
+                  <p class="small-cart-text mb-0 fw-bold">extras</p>
+                  <p class="medium-cart-text fw-bold">
+                    sALAD X lARGE CHIPS X PLANTAIN (DICED)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div
+                class="p text-end pe-5 ps-2 fw-bold pe-0 mt-5"
+                style="font-size: 12px"
+              >
+                5X
+              </div>
+            </div>
+          </div>
+
+          <div class="row ps-2 pt-1">
+            <div class="col-9 pt-3">
+              <div class="row">
+                <div class="col-4 ps-0 pe-0">
+                  <img
+                    src="/Assets/cart-hover-function.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-8 text-uppercase">
+                  <div class="h6 fw-bold mb-1" style="font-size: 12px">
+                    Carlitos Way Special
+                  </div>
+                  <p class="p small-cart-text mb-0 fw-bold">oPTIONS</p>
+                  <p class="medium-cart-text mb-0 fw-bold mb-3">
+                    chICKEN X cOKE X cUPCAKES
+                  </p>
+                  <p class="small-cart-text mb-0 fw-bold">extras</p>
+                  <p class="medium-cart-text fw-bold">
+                    sALAD X lARGE CHIPS X PLANTAIN (DICED)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div
+                class="p ps-2 text-end pe-5 fw-bold pe-0 mt-5"
+                style="font-size: 12px"
+              >
+                5X
+              </div>
+            </div>
+          </div>
+          <div class="row pt-4">
+            <div class="col-3 mb-5">
+              <div
+                class="col d-grid py-1 px-2 col-12 btn rounded-pill"
+                style="background-color: #7b61ff33; color: #7b61ff"
+              >
+                <span style="font-size: 10px">Delivery</span>
+              </div>
+              <!--  -->
+            </div>
+            <div class="col-9">
+              <span>
+                <img
+                  src="/Assets/history-time-vector.svg"
+                  width="15px"
+                  alt=""
+                />
+              </span>
+
+              <span class="mt-2" style="font-size: 12px"
+                >10:40 AM - 11:20 AM</span
+              >
+            </div>
+          </div>
+          <!-- comment section -->
+          <div class="row me-5">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label mb-1">
+                <span>
+                  <img src="/Assets/comment-vector.png" class="mb-1" width="19px" alt="" />
+                </span>
+                <span class="fw-bold"> Comment</span>
+              </label>
+              <textarea
+                class="form-control border-0"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                style="background-color: #f7f7f7"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="row pb-5 mb-5 me-5">
+            <div class="col-12 pt-3 d-flex justify-content-between">
+              <span>Subtotal</span>
+              <span class="fw-bold" style="font-size: 14px">₦ 9,000.00</span>
+            </div>
+
+            <div class="col-12 pt-3 d-flex justify-content-between">
+              <span>Taxes & Fees</span>
+              <span class="fw-bold" style="font-size: 14px">₦ 9,000.00</span>
+            </div>
+
+            <div class="col-12 pt-3 d-flex justify-content-between">
+              <span>Delivery Charge</span>
+              <span class="fw-bold" style="font-size: 14px">₦ 9,000.00</span>
+            </div>
+            <!--  -->
+            <div
+              class="mt-4 mb-3 d-grid fw-bold py-1 px-2 col-lg-4 col-5 btn rounded-pill"
+              style="background-color: #19ee9433; color: #4caf50"
+            >
+              <span style="font-size: 10px">50% Voucher Active</span>
+            </div>
+            <!-- horizontal rule-->
+            <hr />
+
+            <div class="col-12 fw-bold d-flex justify-content-between">
+              <span style="font-size: 18px">Total</span>
+              <span style="font-size: 18px">₦ 9,000.00</span>
+            </div>
+            <div class="p my-5">
+              <spam class="fw-bold">Payment Method: </spam>
+              <span>Cash on Delivery</span>
+              <span class="ps-4">
+                <img src="/Assets/red-check-button.svg" class="" alt="" />
+                unpaid
+              </span>
+            </div>
+          </div>
+        </div>
+          
+      </div>
+        <!-- status column -->
+        <div class="col-5 d-none d-lg-block ps-5 pt-5 pe-5" style="height: 100vh">
+          <div class="row">
+            <div class="button-div d-flex justify-content-end">
+              <a
+                href="vendorPage.html"
+                class="ms-3 d-grid fw-bold py-2 px-2 col-4 btn"
+                style="background-color: #f7f7f7"
+              >
+                <span style="font-size: 12px">Continue shopping</span>
+              </a>
+            </div>
+
+            <div class="ststus-div pe-3 ps-4 pb-5 mt-5 rounded-3" style="background-color: #f7f7f7;">
+              <div class="col-12 ps-3 mb-5">
+                <div class="h5 fw-bold mt-4">Status History</div>
+              </div>
+
+              <!-- status div -->
+              <div class="ps-2">
+                <span class="bell-div rounded-circle ms-4 p-2 bg-danger" >
+                  <img src="/Assets/bell-icon.svg" width="15px" class="img-fluid" style="color: red;" alt="">
+                </span>
+              </div>
+
+              <div class="status ms-5 " style="border-left: #979797 dashed;">
+
+                <div class="row  ">
+                  <div class="col ms-3">
+                    <h6 class="fw-bold">Just Created</h6>
+                  </div>
+                  <div class="col-5 text-end d-flex justify-content-end" style="font-size: 12px;">
+                    Thursday, June 24, 2021 10:06 AM
+                  </div>
+                </div>
+                <div class="row ms-3">
+                  <div class="col-12 ">
+                    <div class="p">
+                      Order ID: <span class="fw-bold">#ADX46V</span>  
+                    </div>
+                  </div>
+
+                  <div class="col-12 ">
+                    <div class="p">
+                      Status From: <span class="fw-bold">Jason</span> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- status -->
+              <div class="ps-2">
+                <span class="bell-div rounded-circle ms-4 p-2 bg-danger" >
+                  <img src="/Assets/bell-icon.svg" width="15px" class="img-fluid" style="color: red;" alt="">
+                </span>
+              </div>
+
+              <div class="status ms-5 mt-2" style="border-left: #979797 dashed;">
+                <div class="row ms-3 ">
+                  <div class="col ">
+                    <h6 class="fw-bold">Accepted by Admin</h6>
+                  </div>
+                  <div class="col-5 text-end d-flex justify-content-end" style="font-size: 12px;">
+                    Thursday, June 24, 2021 10:06 AM
+                  </div>
+                </div>
+                <div class="row ms-3">
+                  <div class="col-12 ">
+                    <div class="p">
+                      Status From: <span class="fw-bold">Admin</span> 
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- status -->
+              <div class="ps-2">
+                <span class="bell-div rounded-circle ms-4 p-2 bg-danger" >
+                  <img src="/Assets/bell-icon.svg" width="15px" class="img-fluid" style="color: red;" alt="">
+                </span>
+              </div>
+
+
+              <div class="status ms-5  mt-2 pb-3" style="border-left: #979797 dashed;">
+                <div class="row ms-3 ">
+                  <div class="col ">
+                    <h6 class="fw-bold">Accepted by Vendor</h6>
+                  </div>
+                  <div class="col-5 text-end d-flex justify-content-end" style="font-size: 12px;">
+                    Thursday, June 24, 2021 10:06 AM
+                  </div>
+                </div>
+                <div class="row ms-3">
+
+                  <div class="col-12 ">
+                    <div class="p">
+                      Status From: <span class="fw-bold">Vendor</span> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bootstrap.js"></script>
+  </body>
+</html>
