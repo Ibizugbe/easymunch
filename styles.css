@@ -205,21 +205,10 @@ a {
   border-bottom-right-radius: 16px;
   border-bottom-left-radius: 16px;
 }
-table {
-  border-collapse: collapse;
-  width: 1245px;
-}
-th,
-td {
-  text-align: left;
-  padding: 8px;
-}
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
+
 .table-div {
   overflow-x: auto;
 }
 .address-text {
-  font-size: 12px;
+  font-size: 14px;
 }
