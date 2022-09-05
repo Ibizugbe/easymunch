@@ -1,18 +1,83 @@
+/* typography */
+.headline60 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+}
+.headline48 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.headline36 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.headline30 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.headline24 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.headline20 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.body20 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.body18 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.bodt16 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.body14 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.label14 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+}
+.label12 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+.caption12 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
-html {
-  height: 100%;
-}
+
 .landingBg {
-  background-image: url(Assets/splash\ image\ bgup.png);
+  background-image: url(/Assets/splash\ image\ bgup.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
 }
 .landingBgMobile {
-  background-image: url(Assets/splash\ image\ bgup.png);
+  background-image: url(/Assets/splash\ image\ bgup.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -42,7 +107,7 @@ a {
       rgba(53, 53, 53, 0.729167) 61.98%,
       #000000 100%
     ),
-    url("Assets/unsplash_VP5R-n47v9Q.png");
+    url("/Assets/unsplash_VP5R-n47v9Q.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +122,7 @@ a {
       rgba(53, 53, 53, 0.729167) 61.98%,
       #000000 100%
     ),
-    url(Assets/unsplash_business.png);
+    url(/Assets/unsplash_business.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -72,7 +137,7 @@ a {
       rgba(53, 53, 53, 0.729167) 61.98%,
       #000000 100%
     ),
-    url(Assets/unsplash_costurmers.png);
+    url(/Assets/unsplash_costurmers.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -88,7 +153,7 @@ a {
       rgba(44, 44, 44, 0.776042) 66.15%,
       #000000 100%
     ),
-    url(Assets/unsplash_howitworks.png);
+    url(/Assets/unsplash_howitworks.png);
 }
 .questionSegment {
   color: #7f7e7c;
@@ -96,7 +161,7 @@ a {
 
 #bgLanding {
   min-height: 100vh;
-  background-image: url(Assets/splash_image_edited.png);
+  background-image: url(/Assets/splash_image_edited.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -121,13 +186,22 @@ a {
 }
 #bgLandingMobile {
   min-height: 75vh;
-  background-image: url(Assets/splash_image_edited.png);
+  background-image: url(/Assets/splash_image_edited.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.sign-btn {
+  background-color: black !important;
+}
+
+.sign-google {
+  background-color: #f7f7f7;
+}
+
 .modal-head {
-  background-image: url(Assets/modal_bg-image.png);
+  background-image: url(/Assets/modal_bg-image.png);
   height: 25vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -209,6 +283,7 @@ a {
 .table-div {
   overflow-x: auto;
 }
+
 .address-text {
   font-size: 14px;
 }
